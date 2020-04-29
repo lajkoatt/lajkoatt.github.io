@@ -1,0 +1,87 @@
+header {
+  background: no-repeat center/100% url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
+  height: 400px;
+  width: auto;
+  background-position: center;
+  position: relative;
+  background-size: cover;
+}
+.header-text {
+  position: absolute;
+  bottom: 25%;
+  left: 20%;
+  font-family: 'Abril Fatface';
+  font-size: 35px;
+  color: #222;
+}
+.header-text2 {
+  font-size: 70px;
+  position: absolute;
+  bottom: 0%;
+  left: 20%;
+  font-family: 'Abril Fatface';
+  color: #222;
+}
+main {
+  margin: 0 20%;
+  
+}
+p {
+  font-family: 'Josefin Sans';
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.first-list {
+  font-family: 'Josefin Sans', sans-serif;
+  list-style-type: square;
+  line-height: 130%;
+  font-size: 24px;
+}
+blockquote {
+  width: auto;
+  background: #222;
+  color: white;
+  text-align: left;
+  margin: 0 -30px;
+  font-family: 'Abril Fatface';
+  font-size: 45px;
+  padding: 10% 10%;
+  position: relative
+}
+blockquote::before {
+  content: '“';
+  position: absolute;
+  top: -40px;
+  left: 5px;
+  font-size: 150px;
+}
+h3 {
+  font-family: 'Josefin Sans';
+  font-weight: 600;
+  color: #222;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.caption-h3 {
+  font-variant-caps: all-small-caps;
+  margin: 60px 0;
+}
+article, ul {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+h4 {
+  font-family: 'Merriweather', serif;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 0;
+}
+.line-div {
+  width: auto;
+  height: 5px;
+  background: #222;
+  margin: 0 -30px;
+}
